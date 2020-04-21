@@ -1,0 +1,156 @@
+.id-project{
+	display: none;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* not necessary*/
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  min-height: 100vh;
+}
+.quantity-block {
+	display:inline;
+  font-size: 20px;
+  
+}
+.quantity-arrow-minus,
+.quantity-arrow-plus {
+  cursor: pointer;
+  font-size: 20px;
+  padding: 1px 12px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  outline: none;
+}
+.quantity-num {
+    font-size: 20px;
+    padding: 1px 10px;
+    border-radius: 4px;
+    width: 40px;
+    outline: none;
+}
+.form-signin{
+	display: none;
+}
+.project_id{
+	display: none;
+}
+.num{
+	width: 40px;
+	text-align: center;
+}
+.status, .task-status{width: 80px;}
+.name, .project, .task-name{width: 400px;}
+.result-display button{	
+	background: #3d94f3;
+    border: 0px;
+    padding: 1px 10px;
+    color: white;
+	margin-right: 10px;
+	
+}
+.create_project{
+	background: #3d94f3;
+    border: 0px;
+    padding: 1px 10px;
+    color: white;
+	margin-right: 10px;
+}
+.id-task{
+	display:none;
+}
+.btn-task, .btn-task-pr, .add-task-project{
+	background: #3d94f3;
+    border: 0px;
+    padding: 1px 10px;
+    color: white;
+	margin-right: 10px;
+}
+.add-task-project{
+	display: none;
+}
+.add-task{
+	background: #3d94f3;
+    border: 0px;
+    padding: 1px 10px;
+    color: white;
+	margin-right: 10px;
+}
+.delete-projecr{
+	background: #3d94f3;
+    border: 0px;
+    padding: 1px 10px;
+    color: white;
+}
+.project-name{
+	display: inline;
+}
+.project-and-task{
+	background: #a4cfff;
+	margin-bottom: 10px;
+    padding: 10px;
+}
+.project-name:after{
+	content: "view task";
+	float: right;
+}
+.result-display{
+	margin-top: 10px;
+}
+#oll-project{
+	margin-top: 10px;
+}
+.main-bg-img{
+	width: 80%;
+    margin-left: 10%;
+}
+.container h2{
+	margin-top:30px;
+	text-align: center;
+	margin-bottom:30px;
+}
+.create-project{
+	text-align: center;
+}
+p{
+	background: #9aeaac;
+    text-align: center;
+}
+.edit-projecr-input{
+	display: none;
+}
+.edit-projecr-save{
+	background: #3d94f3;
+    border: 0px;
+    padding: 1px 10px;
+    color: white;
+	margin-right: 5px;
+}
+.edit-projecr{
+	margin-right: 5px;
+	background: #3d94f3;
+    border: 0px;
+    padding: 1px 10px;
+    color: white;
+}
+.username{
+	display: none;
+}
+.logout{
+	text-align: right;
+	width: 100%;
+	float: right;
+}
