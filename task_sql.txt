@@ -1,0 +1,44 @@
+SELECT t1.id_project,
+        COUNT(t2.id_project)
+   FROM #project as t1
+   full join #task    as t2 on t2.id_project = t1.id_project
+  where t1.id_project is not null
+    and username = 'zhekki.pytgfh'
+   group by t1.id_project
+   order by COUNT(t2.id_project) desc
+  ;
+  commit;
+
+////
+
+ SELECT distinct t1.id_project,project
+   FROM #project as t1
+   full join #task    as t2 on t2.id_project = t1.id_project
+  where t1.id_project is not null
+    and username = 'zhekki.pytgfh'
+   order by project 
+  ;
+  commit;
+
+//////
+ SELECT distinct t1.id_project,project
+   FROM #project as t1
+   full join #task    as t2 on t2.id_project = t1.id_project
+  where t1.id_project is not null
+    and username = 'zhekki.pytgfh'
+    and project  like 'N%'
+   order by project 
+  ;
+  commit;
+
+/////
+SELECT distinct t1.id_project,project
+   FROM #project as t1
+   full join #task    as t2 on t2.id_project = t1.id_project
+  where t1.id_project is not null
+    and username = 'zhekki.pytgfh'
+    and project  like '%A%'
+   order by project 
+  ;
+  commit;
+
