@@ -39,7 +39,7 @@ body {
     font-size: 20px;
     padding: 1px 10px;
     border-radius: 4px;
-    width: 40px;
+    width: 100px;
     outline: none;
 }
 .form-signin{
@@ -52,7 +52,7 @@ body {
 	width: 40px;
 	text-align: center;
 }
-.status, .task-status{width: 80px;}
+.status, .task-status{width: 20px;}
 .name, .project, .task-name{width: 400px;}
 .result-display button{	
 	background: #3d94f3;
@@ -125,10 +125,7 @@ body {
 .create-project{
 	text-align: center;
 }
-p{
-	background: #9aeaac;
-    text-align: center;
-}
+
 .edit-projecr-input{
 	display: none;
 }
@@ -153,4 +150,38 @@ p{
 	text-align: right;
 	width: 100%;
 	float: right;
+}
+.ansver-project{
+   background: #9aeaac;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.checked-task{
+    padding:10px;
+        background: #64a964;
+}
+.ansver-p{
+     text-align: center;
+        background: #9aeaac;
+}
+.edit-display{
+    display:none;
+}
+.btn-task-answer{
+     background: #9aeaac;
+    text-align: center;
+}
+.task-status{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 4px;
+    margin-right: 5px;
+   
+    background: red;
+    display: inline-block;
+}
+.task-status-on{
+    background:green;
 }

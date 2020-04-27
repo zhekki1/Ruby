@@ -3,7 +3,7 @@
     padding: 0;
    }
 .main-bg-img{
-	background: url(/privat-test/img/skaniya.jpg) no-repeat center;
+	background: url(/img/skaniya.jpg) no-repeat center;
 	background-size: cover; 
 	height: 1000px;
 }
