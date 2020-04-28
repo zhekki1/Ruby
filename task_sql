@@ -57,4 +57,8 @@ SELECT distinct t1.id_project,project
     and Status  like 'done'
    order by project 
   ;
+<<<<<<< HEAD:task_sql.txt
   commit;
+=======
+  commit;
+>>>>>>> 977171da6b02d635ba7104a6107c11c012a4d4ef:task_sql
