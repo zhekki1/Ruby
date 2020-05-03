@@ -1,17 +1,16 @@
 <?php
 require("conect.php");
- if(isset($_POST['task_name']) && isset($_POST['task_status'])){
-    $task_name = $_POST['task_name'];
-	$task_status = $_POST['task_status'];
-	$priority = $_POST['priority'];
-	$date = $_POST['date'];
-	$id_project = $_POST['id_project'];
-	$query = "INSERT INTO task (name, Status, priority, date, id_project) VALUES ('$task_name', '$task_status', '$priority', '$date', '$id_project')";
+if(isset($_POST['TaskNname']) && isset($_POST['ProjectId'])){
+    $ProjectId = $_POST['ProjectId'];
+    $TaskNname = $_POST['TaskNname'];
+    $TaskPriority = $_POST['TaskPriority'];
+    $TaskDate = $_POST['TaskDate'];
+    $query = "INSERT INTO task (name , id_project, priority, date) VALUES ('$TaskNname', '$ProjectId', '$TaskPriority', '$TaskDate')";
     $result = mysqli_query($connection, $query);
     if($result){
-      echo("Task added");
+        echo("done");
     }else{
-    	echo("Ошибка");
+        echo("Error");
     }
- }
+}
 ?>
