@@ -1,6 +1,6 @@
 <html>
     <head>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="assets/css/style2.css">
     </head>
     <title> </title>
     <meta charset="UFT-8">
